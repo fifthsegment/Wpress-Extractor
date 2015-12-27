@@ -1,4 +1,4 @@
-# Wpress-Extractor
+# Wpress-Extractor Windows
 A simple windows app that allows you to extract .wpress files created by the awesome All-in-one-Wp-Migration Wordpress plugin
 
 ## Credits
