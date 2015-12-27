@@ -1,7 +1,7 @@
 # Wpress-Extractor
 A simple windows app that allows you to extract .wpress files created by the awesome All-in-one-Wp-Migration Wordpress plugin
 
-# Credits
+## Credits
 The extractor source code : [https://github.com/yani-/wpress](https://github.com/yani-/wpress). I had to make a tiny modification to their reader.go file to allow it to run on Windows systems.
 
 # Download link
