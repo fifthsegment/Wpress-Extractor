@@ -15,6 +15,7 @@ The extractor source code : [https://github.com/yani-/wpress](https://github.com
 Simply provide a path to your downloaded .wpress file as the first commandline argument to the program.
 
 ## I'm not very technical - How to use this thing?
+### Windows Instructions
 1. Download the extractor 
 2. Create a directory where you wish your files to be extracted to
 3. Copy the downloaded extractor to that directory
