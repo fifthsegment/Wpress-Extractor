@@ -5,7 +5,9 @@ A simple windows app that allows you to extract .wpress files created by the awe
 The extractor source code : [https://github.com/yani-/wpress](https://github.com/yani-/wpress). I had to make a tiny modification to their reader.go file to allow it to run on Windows systems.
 
 ## Download link
-[Download now](https://github.com/fifthsegment/Wpress-Extractor/raw/master/dist/wpress-extractor.exe)
+[Windows - Download now](https://github.com/fifthsegment/Wpress-Extractor/raw/master/dist/wpress-extractor.exe)
+
+[MAC - Download now](https://github.com/fifthsegment/Wpress-Extractor/raw/master/dist/mac/wpress-extractor)
 
 ## How to extract/open .wpress files ?
 Simply provide a path to your downloaded .wpress file as the first commandline argument to the program.
