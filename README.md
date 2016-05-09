@@ -16,6 +16,14 @@ Simply provide a path to your downloaded .wpress file as the first commandline a
 
 ## I'm not very technical - How to use this thing?
 ### Windows Instructions
+
+Simply download the extractor then drop your.wpress file onto the executable (Wpress-extractor.exe).  
+
+
+OR
+
+
+
 1. Download the extractor 
 2. Create a directory where you wish your files to be extracted to
 3. Copy the downloaded extractor to that directory
