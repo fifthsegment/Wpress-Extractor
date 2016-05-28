@@ -13,6 +13,7 @@ The extractor source code : [https://github.com/yani-/wpress](https://github.com
 
 ## How to extract/open .wpress files ?
 Simply provide a path to your downloaded .wpress file as the first commandline argument to the program.
+`./wpress_extractor /path/to/my/backup.wpress`
 
 ## I'm not very technical - How to use this thing?
 ### Windows Instructions
