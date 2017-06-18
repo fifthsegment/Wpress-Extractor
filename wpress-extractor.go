@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Printf("Wpress Extracter.\n")
+	fmt.Printf("Wpress Extractor.\n")
 
 	if ( len(os.Args) == 2 ){
 		pathTofile := os.Args[1]
