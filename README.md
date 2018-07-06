@@ -1,5 +1,5 @@
-# Wpress-Extractor Windows/Mac
-A simple windows app that allows you to extract .wpress files created by the awesome All-in-one-Wp-Migration Wordpress plugin
+# Wpress-Extractor Windows/Mac/Linux
+A simple app that allows you to extract .wpress files created by the awesome All-in-one-Wp-Migration Wordpress plugin
 
 ## Credits
 The extractor source code : [https://github.com/yani-/wpress](https://github.com/yani-/wpress). I had to make a tiny modification to their reader.go file to allow it to run on Windows systems.
@@ -10,28 +10,40 @@ The extractor source code : [https://github.com/yani-/wpress](https://github.com
 [Mac - Download now](https://github.com/fifthsegment/Wpress-Extractor/blob/master/dist/mac/wpress_extractor?raw=true)
 *IMPORTANT FOR MAC: Don't forget to make the binary executable by running a  `chmod +x wpress_extractor` on the downloaded file via the Terminal.
 
+## Run On Linux
+
+1. Install go in your system and set both `$GOPATH` and include `$GOPATH/bin` in your `$PATH`. Some tutorial to : [install go in debian](https://www.digitalocean.com/community/tutorials/how-to-install-go-1-7-on-debian-8) 
+2. Install go this package 
+  ```
+  go get "github.com/github.com/yani-/wpress"
+  go get "github.com/fifthsegment/Wpress-Extractor"
+  go install "github.com/fifthsegment/Wpress-Extractor"
+  ```
+3. Executable should be on your `$GOPATH/bin/Wpress-Extractor`
+
 
 ## How to extract/open .wpress files ?
 Simply provide a path to your downloaded .wpress file as the first commandline argument to the program.
 `./wpress_extractor /path/to/my/backup.wpress`
 
 ## I'm not very technical - How to use this thing?
-### Windows Instructions
+
+The .wpress archive backup your `wp-content` directory
+
+### Instructions
 
 Simply download the extractor then drop your.wpress file onto the executable (Wpress-extractor.exe). ([Thanks hughc](https://github.com/hughc)!)
 
 
 OR
 
-
-
 1. Download the extractor 
-2. Create a directory where you wish your files to be extracted to
+2. Create a directory where you wish your files to be extracted to (best to your `wp-content` directory of your wordpress install you wish to restore)
 3. Copy the downloaded extractor to that directory
 4. Copy your .wpress file to that directory as well
 5. Open up a command prompt
 6. CD into the directory you just created, let's say its C:\Wordpress-Backup. The command you'll run would be `cd C:\Wordpress-Backup`
 7. Now run the following command `wpress-extractor <name-of-your.wpress file>`. For example my .wpress file was fifthsegment.wpress so the command I ran was `wpress-extractor fifthsegment.wpress`.
 8. You'll find your files extracted into the same directory where the extractor was run. In my case it was `C:\Wordpress-Backup`
-
+9. Database file is on `database.sql` 
 
