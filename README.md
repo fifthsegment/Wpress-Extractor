@@ -4,7 +4,7 @@ A simple windows app that allows you to extract .wpress files created by the awe
 
 ## Credits
 
-The original extractor source code: [https://github.com/yani-/wpress](https://github.com/yani-/wpress). I have made a small modification to the reader.go file to take a output path as parameter.
+The original extractor source code: [https://github.com/yani-/wpress](https://github.com/yani-/wpress). I have made a small modification to the reader.go file to take a output path as parameter.  
 The original Wpress-Extractor code: [https://github.com/fifthsegment/Wpress-Extractor](https://github.com/fifthsegment/Wpress-Extractor) Abdullah Irfan has changed the reader.go og the reader.go to run it on windows. And he has written the wpress-extractor.go.
 
 ## Download link
