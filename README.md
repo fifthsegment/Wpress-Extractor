@@ -27,4 +27,4 @@ Example: `./wpress-extractor /User/test/Download/backup.wpress\ /User/test/Docum
 ### Windows
 
 Syntax: `./wpress-extractor.exe /path/to/my/backup.wpress`  
-Example: `wpress-extractor.exe C:\\temp\\backup.wpress C:\\temp\\Wordpress\\backup`
+Example: `wpress-extractor.exe C:\temp\backup.wpress C:\temp\Wordpress\backup`
