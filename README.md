@@ -12,7 +12,7 @@ The original Wpress-Extractor code: [https://github.com/fifthsegment/Wpress-Extr
 [Windows - Download now](https://github.com/mabakach/Wpress-Extractor/raw/master/dist/wpress-extractor.exe)  
 
 [Mac - Download now](https://github.com/mabakach/Wpress-Extractor/blob/master/dist/mac/wpress-extractor?raw=true)  
-*IMPORTANT FOR MAC: Don't forget to make the binary executable by running a  `chmod +x wpress_extractor` on the downloaded file via the Terminal.
+*IMPORTANT FOR MAC: Don't forget to make the binary executable by running a  `chmod +x wpress-extractor` on the downloaded file via the Terminal.
 
 ## How to extract/open .wpress files?
 
@@ -21,7 +21,7 @@ Missing parts of the output directory are automatically created by wpress-extrac
 
 ### Mac
 
-Syntax: `./wpress-extractor </path/to/my/backup.wpress> \[/output/path\]`  
+Syntax: `./wpress-extractor </path/to/my/backup.wpress> [/output/path]`  
 Example: `./wpress-extractor /User/test/Download/backup.wpress\ /User/test/Documents/Wordpress/backup`
 
 ### Windows
