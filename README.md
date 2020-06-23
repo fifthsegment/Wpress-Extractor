@@ -8,8 +8,9 @@ The extractor source code : [https://github.com/yani-/wpress](https://github.com
 [Windows - Download now](https://github.com/fifthsegment/Wpress-Extractor/raw/master/dist/wpress-extractor.exe)
 
 [Mac - Download now](https://github.com/fifthsegment/Wpress-Extractor/blob/master/dist/mac/wpress_extractor?raw=true)
-*IMPORTANT FOR MAC: Don't forget to make the binary executable by running a  `chmod +x wpress_extractor` on the downloaded file via the Terminal.
+*IMPORTANT FOR MAC: Don't forget to make the binary executable by running a  `chmod +x wpress_extractor` on the downloaded file via the Terminal.*
 
+For linux users: clone this repository, enter then into it, then issue: `go build`. An executable file named Wpress-Extractor can than be copied to any location where it can be used to expand backup files.
 
 ## How to extract/open .wpress files ?
 Simply provide a path to your downloaded .wpress file as the first commandline argument to the program.
